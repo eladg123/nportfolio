@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c67218b.css",
+    "main.js": "/static/js/main.b3643994.js",
+    "static/js/787.8d4efb73.chunk.js": "/static/js/787.8d4efb73.chunk.js",
+    "static/media/emoji5.png": "/static/media/emoji5.783a0b202fe54b99e9c0.png",
+    "static/media/books-restful.jpg": "/static/media/books-restful.6334f051380cfa79c73b.jpg",
+    "static/media/emoji4.png": "/static/media/emoji4.67043648b7bbade8eebc.png",
+    "static/media/cinema.png": "/static/media/cinema.60fd9b9a4c9c113ea426.png",
+    "static/media/Elad Gabay CV.pdf": "/static/media/Elad Gabay CV.2968117720a2b0cbf4b4.pdf",
+    "static/media/emoji.png": "/static/media/emoji.652a9b1be57670a44480.png",
+    "static/media/footshop.png": "/static/media/footshop.1181c0e7bfd028835246.png",
+    "static/media/tictactoe.png": "/static/media/tictactoe.91d85a73040fe5e73d43.png",
+    "static/media/studentreact.png": "/static/media/studentreact.62bbe94b3e0bacd5bdcb.png",
+    "static/media/shopping-cart-ts-react.png": "/static/media/shopping-cart-ts-react.7ba4f5490dd5a6dea940.png",
+    "static/media/advanced.png": "/static/media/advanced.82f3ab4efc96cb21e072.png",
+    "static/media/chicago.png": "/static/media/chicago.9e1c7142409797b939b1.png",
+    "index.html": "/index.html",
+    "main.2c67218b.css.map": "/static/css/main.2c67218b.css.map",
+    "main.b3643994.js.map": "/static/js/main.b3643994.js.map",
+    "787.8d4efb73.chunk.js.map": "/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c67218b.css",
+    "static/js/main.b3643994.js"
+  ]
+}
