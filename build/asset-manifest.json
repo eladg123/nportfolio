@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2c67218b.css",
-    "main.js": "/static/js/main.d5b8c027.js",
+    "main.js": "/static/js/main.208fb500.js",
     "static/js/787.8d4efb73.chunk.js": "/static/js/787.8d4efb73.chunk.js",
     "static/media/emoji5.png": "/static/media/emoji5.783a0b202fe54b99e9c0.png",
     "static/media/books-restful.jpg": "/static/media/books-restful.6334f051380cfa79c73b.jpg",
@@ -17,11 +17,11 @@
     "static/media/chicago.png": "/static/media/chicago.9e1c7142409797b939b1.png",
     "index.html": "/index.html",
     "main.2c67218b.css.map": "/static/css/main.2c67218b.css.map",
-    "main.d5b8c027.js.map": "/static/js/main.d5b8c027.js.map",
+    "main.208fb500.js.map": "/static/js/main.208fb500.js.map",
     "787.8d4efb73.chunk.js.map": "/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c67218b.css",
-    "static/js/main.d5b8c027.js"
+    "static/js/main.208fb500.js"
   ]
 }

@@ -1,27 +1,30 @@
-import React from 'react'
-import emailjs from 'emailjs-com'
+import React, { FormEvent, useRef } from 'react'
 import './Contact.css'
 import contactImg from '../images/emoji.png'
+import emailjs from '@emailjs/browser'
+import { EmailJSResponseStatus } from 'emailjs-com'
 
 const Contact = () => {
-  const handleSubmit = (e: any) => {
+  const form = useRef<HTMLFormElement>(null!)
+  const sendEmail = (e: FormEvent) => {
     e.preventDefault()
     emailjs
       .sendForm(
-        `service_xxxxx`,
-        'template_xxxxx',
-        e.target,
-        'user_xxxxxxxxxxxxxx',
+        'service_c22awir',
+        'template_zlmzods',
+        form.current,
+        'Dj9dz6YdzKXvDH__u',
       )
       .then(
-        (result) => {
-          alert('Message Sent , I will get back to you shortly')
+        (result: EmailJSResponseStatus) => {
+          alert(`Message sent, I will get back to you shortly.`)
         },
         (error) => {
-          alert('An error occurred, Please try again')
+          alert(`An error occurred, Please try again , ${error.text}`)
         },
       )
   }
+
   return (
     <div className="contact component__space" id="Contact">
       <div className="row">
@@ -45,15 +48,15 @@ const Contact = () => {
               </p>
             </div>
             <div className="input__box">
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={sendEmail} ref={form}>
                 <input
-                  name="name"
+                  name="user_name"
                   type="text"
                   className="contact name"
                   placeholder="Your name *"
                 />
                 <input
-                  name="email"
+                  name="user_email"
                   type="text"
                   className="contact email"
                   placeholder="Your email *"
@@ -62,6 +65,7 @@ const Contact = () => {
                   type="text"
                   className="contact subject"
                   placeholder="Write a subject *"
+                  name="subject"
                 />
                 <textarea
                   name="message"
