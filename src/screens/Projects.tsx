@@ -11,6 +11,9 @@ import Projcet8 from '../images/advanced.png'
 import Project9 from '../images/books-api-ts.jpg'
 import Project10 from '../images/books-restful.jpg'
 import Project11 from '../images/mysql-node-react.jpg'
+import Project12 from '../images/rps.png'
+import Project13 from '../images/breakout.jpg'
+import Project14 from '../images/memory.jpg'
 
 const Projects = () => {
   return (
@@ -123,6 +126,26 @@ const Projects = () => {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
+                  <img src={Project13} className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Breakout game</h5>
+                <h4 className="project__text">HTML</h4>
+                <a
+                  href="https://github.com/eladg123/breakout-game"
+                  className="project__btn"
+                >
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
                   <img src={Project3} className="project__img" />
                 </div>
                 <div className="mask__effect"></div>
@@ -154,6 +177,26 @@ const Projects = () => {
                 <h4 className="project__text">HTML and NodeJS</h4>
                 <a
                   href="https://github.com/eladg123/Students-site"
+                  className="project__btn"
+                >
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project12} className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Rock Paper Scissors</h5>
+                <h4 className="project__text">HTML</h4>
+                <a
+                  href="https://github.com/eladg123/rock-paper-scissors"
                   className="project__btn"
                 >
                   View Code
@@ -240,6 +283,26 @@ const Projects = () => {
                 </h4>
                 <a
                   href="https://github.com/eladg123/Restful-API-NodeJS-Express-Typescript-MySQL"
+                  className="project__btn"
+                >
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project14} className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Memory Game</h5>
+                <h4 className="project__text">HTML</h4>
+                <a
+                  href="https://github.com/eladg123/memory-game"
                   className="project__btn"
                 >
                   View Code
