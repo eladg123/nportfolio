@@ -14,6 +14,7 @@ import Project11 from '../images/mysql-node-react.jpg'
 import Project12 from '../images/rps.png'
 import Project13 from '../images/breakout.jpg'
 import Project14 from '../images/memory.jpg'
+import Project15 from '../images/create-set.jpg'
 
 const Projects = () => {
   return (
@@ -323,6 +324,26 @@ const Projects = () => {
                 <h4 className="project__text">MySQL - NodeJS - ReactJS</h4>
                 <a
                   href="https://github.com/eladg123/MySQL-Node-React"
+                  className="project__btn"
+                >
+                  View Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img src={Project15} className="project__img" />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">Create set</h5>
+                <h4 className="project__text">ReactJS - Typescript</h4>
+                <a
+                  href="https://github.com/eladg123/create-set-typescript"
                   className="project__btn"
                 >
                   View Code
